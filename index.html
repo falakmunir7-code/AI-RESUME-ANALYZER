@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>AI-RESUME-ANALYZER</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+    
+  <body>
+  <div class="container">
+
+  <h1>AI Resume Analyzer</h1>
+
+  <p class="subtitle">
+    Upload your resume and get instant AI-based analysis
+  </p>
+
+  <div class="upload-box">
+
+    <label for="resumeUpload" class="custom-upload">
+      Upload Resume
+    </label>
+
+    <input type="file" id="resumeUpload">
+
+    <span id="file-name"></span>
+
+    <button>Analyze Resume</button>
+
+  </div>
+
+  <div class="result-box hidden">
+
+    <h2>Resume Score</h2>
+
+    <div class="score-circle">
+      0%
+    </div>
+
+    <h3>Detected Skills</h3>
+
+    <div class="skills"></div>
+
+    <h3>Suggestions</h3>
+
+    <ul></ul>
+
+  </div>
+
+</div>
+<script src="script.js"></script>
+
+  </body>
+  
+</html>
